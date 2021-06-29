@@ -22,7 +22,7 @@ Following quantification, you will then standardize your samples to 20 ng/µL.
 >   * *a working stock will need to be made before beginning. Our lab creates several i5 adapter sets in 8-strip PCR tubes and i7 adapter sets in a 12-strip for easy grab use. DO NOT THAW UNUSED STOCK.*
 > * Standardized DNA (20 ng/µL)
 
-*Materials Note: only take out enzymes/polymerase from freezer when they are ready to be used. No need to thaw!*
+*Materials Note: only take out enzymes/polymerase from freezer when they are ready to be used. No need to thaw unless specifically mentioned below!*
 
 ### 1a. Create Master Mix and Add Adapters + DNA
 **Master Mix**
@@ -61,9 +61,9 @@ NheI-HF | 0.5 µL | 53 µL
 **Materials Needed:**
 > * molecular grade H20
 > * Promega 10mM rATP
->   * *note: need to thaw (hold in hand for last five minutes of ibcubation in step 1*
+>   * *note: need to thaw (hold in hand for last 3-5 minutes of ibcubation in step 1)*
 > * 10X Ligase Buffer
->   * *note: heat to dissolve with heat block if not in solution*
+>   * *note: heat to dissolve with heat block if not in solution. Preferably start this before Step 1*
 > * 400,000 U/mL NEB T4 DNA Ligase
 
 ### 2a. Create Master Mix and Add
