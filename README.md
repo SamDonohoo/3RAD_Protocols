@@ -16,11 +16,13 @@ Following quantification, you will then standardize your samples to 20 ng/µL.
 >   * XbaI
 >   * EcoRI-HF
 >   * NheI-HF
-> * dH2O
+> * molecular grade H2O
 > * 10X NEB CutSmart Buffer
 > * 2.5 µM Read 1 (i5) and Read2 (i7) Adapters
+>   * *a working stock will need to be made before beginning. Our lab creates several i5 adapter sets in 8-strip PCR tubes and i7 adapter sets in a 12-strip for easy grab use. DO NOT THAW UNUSED STOCK.*
 > * Standardized DNA (20 ng/µL)
 
+*Materials Note: only take out enzymes/polymerase from freezer when they are ready to be used. No need to thaw!*
 
 ### 1a. Create Master Mix and Add Adapters + DNA
 **Master Mix**
@@ -35,12 +37,19 @@ NheI-HF | 0.5 µL | 53 µL
 
 *vortex master mix upon completion*
 
-1. Place 6 µL of master mix in each well using a multi-channel pipette.
 
-2. Place 2 µL of each adapter in correct well using a multi-channel pipette
+1. Take a strip of eight 0.5 mL PCR tubes and pipette 78 µL into each tube to use as aliquot for use of multi-channel pipetting.
+
+2. Place 6 µL of master mix in each well using a multi-channel pipette.
+
+3. Place 2 µL of each adapter in correct well using a multi-channel pipette
 (see image below for plate orientation).
+  * use 12-channel pipette for i7 adapters.
+  * use 8-channel pipette for i5 adapters.
 
-3. Place 5 µL of DNA in each well after adding adapters using a multi-channel pipette.
+4. Place 5 µL of DNA in each well after adding adapters using a multi-channel pipette.
+
+5. Seal 96-well plate with adhesive film and proceed to 1b.
 
 ![Image of 96 well plate](96-well-plate-template-01.png)
 
@@ -50,8 +59,9 @@ NheI-HF | 0.5 µL | 53 µL
 ### 2. Ligation
 
 **Materials Needed:**
-> * dH20
+> * molecular grade H20
 > * Promega 10mM rATP
+>   * *note: need to thaw (hold in hand for last five minutes of ibcubation in step 1*
 > * 10X Ligase Buffer
 >   * *note: heat to dissolve with heat block if not in solution*
 > * 400,000 U/mL NEB T4 DNA Ligase
@@ -70,6 +80,7 @@ DNA Ligase | 0.25 µL | 26.5 µL
 
 1. Take a strip of eight 0.5 mL PCR tubes and pipette 65 µL into each tube to use as aliquot for use of multi-channel pipetting.
 2. Using a multi-channel pipette, add 5 µL of the master mix to each well.
+3. Seal 96-well plate with adhesive film and proceed to 2b.
 
 ### 2b. Incubation
 1. Incubate samples without heated lid
@@ -77,12 +88,16 @@ DNA Ligase | 0.25 µL | 26.5 µL
     * 22 °C for 20:00
     * 37 °C for 10:00
   * 80 °C for 20:00
-    * reduce to 10 °C to completion
+    * reduce to 10 °C
+
+2. Spin down plate after incubation.
+
+*Note: While the samples incubate, make fresh 70% EtoH for Bead Cleanup*
 
 ### 3. Bead Cleanup #1
 
 **Materials Needed:**
-> * dH20
+> * molecular grade H20
 > * Omega BioTek Beads
 > * 70% EtOH
 > * TLE Buffer
@@ -97,12 +112,12 @@ DNA Ligase | 0.25 µL | 26.5 µL
     - Pipette EtOH from tube.
     - Repeat, then spin down.
     - Get drops of EtOH with 10 µL pipette tip and let sit for 2 minutes with lid open until EtOH is gone.
-5. Repeat Step 3.
+5. Repeat Step 4.
 6. Resuspend in 25 µL TLE Buffer.
     - Remove from magnet, flick bead down, vortex + spin down.
     - Let sit for 5 minutes.
     - Place back on magnet until clear (~ 3 minutes).
-    - Transfer PCR product to new tube.
+    - Transfer cleaned ligation product to new tube.
 
 ### 4. One Cycle PCR with iTru5-8N Primer
 
@@ -129,6 +144,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 1. Add 45 µL of master mix to four PCR tubes.
 2. Add 5 µL pooled DNA to each PCR tube.
+3. Spin down tubes.
 
 ### 4b. Incubation
 1. Incubate samples with heated lid
@@ -167,6 +183,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 1. Add 42 µL into four PCR tubes.
 2. Add iTru7 Primer to each tube.
     - **For the iTru7 Primer, you will add one indexed primer to one tube, respectively. I.e., i7 101-1 will go into tube 1, i7 101-2 will go into tube 2, etc.**
+    - **Make sure the primer combination you decide to use are suitable for multiplexing on a NovaSeq.
 3. Add 5 µL pooled 8N PCR product to each tube, then spin down.
 
 ### 6b. Incubation
