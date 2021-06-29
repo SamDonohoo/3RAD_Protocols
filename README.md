@@ -55,6 +55,8 @@ NheI-HF | 0.5 µL | 53 µL
 
 ### 1b. Incubate
 1. Incubate samples at 37°C for 1 hour with no heated lid.
+2. Spin down plate after incubation.
+3. Place on ice block before proceeding with Step 2.
 
 ### 2. Ligation
 
@@ -122,7 +124,7 @@ DNA Ligase | 0.25 µL | 26.5 µL
 ### 4. One Cycle PCR with iTru5-8N Primer
 
 **Materials Needed:**
-> * dH20
+> * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 10µM dNTP
 > * Kappa HiFi Polymerase
@@ -159,7 +161,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 ### 6. Two Primer Amplification with P5 and iTru7 Primers
 **Materials Needed:**
-> * dH20
+> * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 5 µM iTru7 Primer
 >     * *see note in step 6a about iTru7 Primer(s)*
@@ -205,7 +207,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 ### 9. Final Amplification with P5 and P7 Primers
 **Materials Needed:**
-> * dH20
+> * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 5 µM P5 Primer
 > * 5 µM P7 Primer
