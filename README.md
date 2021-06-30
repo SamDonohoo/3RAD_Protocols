@@ -109,6 +109,7 @@ DNA Ligase | 0.25 µL | 26.5 µL
 3. Mix pooled ligation product with **1X beads** and vortex + spin down.
     - Sit for 5 minutes.
     - Place on magnet and wait until clear.
+    - Carefully remove and discard the supernatent without disturbing the beads.
 4. Wash with 70% EtOH.
     - Add 500 µL 70% EtOH and let sit for 2 minutes on magnet.
     - Pipette EtOH from tube.
@@ -127,9 +128,11 @@ DNA Ligase | 0.25 µL | 26.5 µL
 > * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 10µM dNTP
-> * Kappa HiFi Polymerase
+> * Kappa HiFi Polymerase (HotStart)
 > * 5 µM iTru5 Primer
 >   * *need to make 5 µM primer beforehand (starts at 100 µM)*
+
+*Note: At this point, I take all of the materials out and place into a cooling block in the fridge except for the HotStart for easy assess.*
 
 ### 4a. Create Master Mix and Add DNA
 **Master Mix**
@@ -164,10 +167,12 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 > * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 5 µM iTru7 Primer
+>     * *need to make 5 µM primer beforehand (starts at 100 µM)*
 >     * *see note in step 6a about iTru7 Primer(s)*
 > * 5 µM P5 Primer
+>     * *need to make 5 µM primer beforehand (starts at 100 µM)*
 > * 10µM dNTP
-> * Kappa HiFi Polymerase
+> * Kappa HiFi Polymerase (HotStart)
 
 ### 6a. Create Master Mix and Add DNA
 **Master Mix**
@@ -183,7 +188,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 *vortex master mix upon completion*
 
 1. Add 42 µL into four PCR tubes.
-2. Add iTru7 Primer to each tube.
+2. Add 3 µL of one iTru7 Primer to one tube (repeat four times - see below).
     - **For the iTru7 Primer, you will add one indexed primer to one tube, respectively. I.e., i7 101-1 will go into tube 1, i7 101-2 will go into tube 2, etc.**
     - **Make sure the primer combination you decide to use are suitable for multiplexing on a NovaSeq.
 3. Add 5 µL pooled 8N PCR product to each tube, then spin down.
@@ -201,9 +206,12 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 ### 7. Bead Cleanup #3
 1. Repeat steps for Bead Cleanup #1 **but use 1.5X beads**
+  - resuspend in 35µL of TLE Buffer
 
 ### 8. Size selection
 1. Size select DNA using BluePippin
+
+*Note: blue pippen cassettes can be stored for re-use of unused lanes*
 
 ### 9. Final Amplification with P5 and P7 Primers
 **Materials Needed:**
@@ -211,8 +219,9 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 > * 5X Kappa HiFi Buffer
 > * 5 µM P5 Primer
 > * 5 µM P7 Primer
+>     * *need to make 5 µM primer beforehand (starts at 100 µM)*
 > * 10µM dNTP
-> * Kappa HiFi Polymerase
+> * Kappa HiFi Polymerase (HotStart)
 
 ### 9a. Create Master Mix and Add DNA
 **Master Mix**
