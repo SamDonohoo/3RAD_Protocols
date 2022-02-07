@@ -22,7 +22,7 @@ Following quantification, you will then standardize your samples to 20 ng/µL.
 >   * *a working stock will need to be made before beginning. Our lab creates several i5 adapter sets in 8-strip PCR tubes and i7 adapter sets in a 12-strip for easy grab use. DO NOT THAW UNUSED STOCK.*
 > * Standardized DNA (20 ng/µL)
 
-*Materials Note: only take out enzymes/polymerase from freezer when they are ready to be used. No need to thaw unless specifically mentioned below!*
+*Materials Note: only take out enzymes/polymerase from freezer when they are ready to be used. Buffers for Digestion and Ligation can be thawed prior to Digestion step (at start of day)*
 
 ### 1a. Create Master Mix and Add Adapters + DNA
 **Master Mix**
@@ -62,10 +62,8 @@ NheI-HF | 0.5 µL | 53 µL
 
 **Materials Needed:**
 > * molecular grade H20
-> * Promega 10mM rATP
->   * *note: need to thaw (hold in hand for last 3-5 minutes of ibcubation in step 1)*
-> * 10X Ligase Buffer
->   * *note: heat to dissolve with heat block if not in solution. Preferably start this before Step 1*
+> * Promega or NEB 10mM rATP
+> * 10X Ligase Buffer (takes a while to thaw, so best to start at beginning on protocol.
 > * 400,000 U/mL NEB T4 DNA Ligase
 
 ### 2a. Create Master Mix and Add
@@ -105,19 +103,19 @@ DNA Ligase | 0.25 µL | 26.5 µL
 > * TLE Buffer
 
 1. Spin down PCR product after removing from thermal cycler.
-2. Pool 5 µL of each ligation product into 1.5 mL tube.
+2. Pool 5 µL of each ligation product into 1.5 mL tube. You can use an eight channel pipette into 8 strip tubes and then combine the 8 tubes into a 1.5 mL tube for speed.
 3. Mix pooled ligation product with **1X beads** and vortex + spin down.
     - Sit for 5 minutes.
     - Place on magnet and wait until clear.
     - Carefully remove and discard the supernatent without disturbing the beads.
 4. Wash with 70% EtOH.
-    - Add 500 µL 70% EtOH and let sit for 2 minutes on magnet.
-    - Pipette EtOH from tube.
-    - Repeat, then spin down.
-    - Get drops of EtOH with 10 µL pipette tip and let sit for 2 minutes with lid open until EtOH is gone.
+    - Add 500 µL 70% EtOH and let sit for 1 minutes on magnet.
+    - Pipette EtOH from tube. 
 5. Repeat Step 4.
-6. Resuspend in 25 µL TLE Buffer.
-    - Remove from magnet, flick bead down, vortex + spin down.
+6. Spin down and pipette up last drops of ethanol with a 0.1-10uL tip.
+7. Air dry by leting tube sit for 2 minutes with lid open until EtOH is gone.
+8. Resuspend in 25 µL TLE Buffer.
+    - Remove from magnet, flick bead down, vortex + spin down. Make sure pellet is not sticking to side of tube.
     - Let sit for 5 minutes.
     - Place back on magnet until clear (~ 3 minutes).
     - Transfer cleaned ligation product to new tube.
@@ -190,7 +188,8 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 1. Add 42 µL into four PCR tubes.
 2. Add 3 µL of one iTru7 Primer to one tube (repeat four times - see below).
     - **For the iTru7 Primer, you will add one indexed primer to one tube, respectively. I.e., i7 101-1 will go into tube 1, i7 101-2 will go into tube 2, etc.**
-    - **Make sure the primer combination you decide to use are suitable for multiplexing on a NovaSeq.
+    - **The above statement approach may vary if multiplexing more than two plates on a single run.**
+    - **Make sure the primer combination you decide to use are suitable for multiplexing on a NovaSeq.**
 3. Add 5 µL pooled 8N PCR product to each tube, then spin down.
 
 ### 6b. Incubation
@@ -205,11 +204,12 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 3. Pool PCR products in one tube.
 
 ### 7. Bead Cleanup #3
-1. Repeat steps for Bead Cleanup #1 **but use 1.5X beads**
-  - resuspend in 35µL of TLE Buffer
+1. Repeat steps for Bead Cleanup #1 **but use 1.5X beads** and **resuspend in 35µL of TLE Buffer**
 
 ### 8. Size selection
 1. Size select DNA using BluePippin
+    -Follow BluePippen instructions.
+    -Be sure to use 200µL pipette tip, not 300µL when pipetting off buffer from cassette. 
 
 *Note: blue pippen cassettes can be stored for re-use of unused lanes*
 
