@@ -128,11 +128,11 @@ DNA Ligase | 0.25 µL | 26.5 µL
 > * 10µM dNTP
 > * Kappa HiFi Polymerase (HotStart)
 > * 5 µM iTru5 Primer
->   * *need to make 5 µM primer beforehand (starts at 100 µM)*
+>   * *need to make 5 µM primer beforehand (stock is at at 100 µM)*
 
 *Note: At this point, I take all of the materials out and place into a cooling block in the fridge except for the HotStart for easy assess.*
 
-### 4a. Create Master Mix and Add DNA
+### 4a. Create Master Mix and Add DNA. There will be 4 reaction (4 PCR tubes)
 **Master Mix**
 PCR Mix | 1X | 5X
 -----------------|----|-----
@@ -165,14 +165,14 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 > * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 5 µM iTru7 Primer
->     * *need to make 5 µM primer beforehand (starts at 100 µM)*
+>     * *need to make 5 µM primer beforehand (stock is at 100 µM)*
 >     * *see note in step 6a about iTru7 Primer(s)*
 > * 5 µM P5 Primer
->     * *need to make 5 µM primer beforehand (starts at 100 µM)*
+>     * *need to make 5 µM primer beforehand (stock is at 100 µM)*
 > * 10µM dNTP
 > * Kappa HiFi Polymerase (HotStart)
 
-### 6a. Create Master Mix and Add DNA
+### 6a. Create Master Mix and Add DNA. There will be 4 reaction (4 PCR tubes)
 **Master Mix**
 PCR Mix | 1X | 5X
 --------|----|-----
@@ -188,8 +188,9 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 1. Add 42 µL into four PCR tubes.
 2. Add 3 µL of one iTru7 Primer to one tube (repeat four times - see below).
     - **For the iTru7 Primer, you will add one indexed primer to one tube, respectively. I.e., i7 101-1 will go into tube 1, i7 101-2 will go into tube 2, etc.**
+    - **WRITE IN NOTEBOOK WHAT iTru7 PRIMERS YOU USED!!**
     - **The above statement approach may vary if multiplexing more than two plates on a single run.**
-    - **Make sure the primer combination you decide to use are suitable for multiplexing on a NovaSeq.**
+    - **Make sure the primer combination you decide to use is suitable for your multiplexing strategy on a NovaSeq.**
 3. Add 5 µL pooled 8N PCR product to each tube, then spin down.
 
 ### 6b. Incubation
@@ -213,13 +214,13 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 *Note: blue pippen cassettes can be stored for re-use of unused lanes*
 
-### 9. Final Amplification with P5 and P7 Primers
+### 9. Final Amplification with P5 and P7 Primers. There will be 4 reaction (4 PCR tubes)
 **Materials Needed:**
 > * molecular grade H20
 > * 5X Kappa HiFi Buffer
 > * 5 µM P5 Primer
 > * 5 µM P7 Primer
->     * *need to make 5 µM primer beforehand (starts at 100 µM)*
+>     * *need to make 5 µM primer beforehand (stock is at 100 µM)*
 > * 10µM dNTP
 > * Kappa HiFi Polymerase (HotStart)
 
