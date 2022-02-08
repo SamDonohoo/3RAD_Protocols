@@ -132,7 +132,7 @@ DNA Ligase | 0.25 µL | 26.5 µL
 
 *Note: At this point, I take all of the materials out and place into a cooling block in the fridge except for the HotStart for easy assess.*
 
-### 4a. Create Master Mix and Add DNA. There will be 4 reaction (4 PCR tubes)
+### 4a. Create Master Mix and Add DNA. There will be 4 reactions (4 PCR tubes)
 **Master Mix**
 PCR Mix | 1X | 5X
 -----------------|----|-----
@@ -172,7 +172,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 > * 10µM dNTP
 > * Kappa HiFi Polymerase (HotStart)
 
-### 6a. Create Master Mix and Add DNA. There will be 4 reaction (4 PCR tubes)
+### 6a. Create Master Mix and Add DNA. There will be 4 reactions (4 PCR tubes)
 **Master Mix**
 PCR Mix | 1X | 5X
 --------|----|-----
@@ -214,7 +214,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 *Note: blue pippen cassettes can be stored for re-use of unused lanes*
 
-### 9. Final Amplification with P5 and P7 Primers. There will be 4 reaction (4 PCR tubes)
+### 9. Final Amplification with P5 and P7 Primers. There will be 4 reactions (4 PCR tubes)
 **Materials Needed:**
 > * molecular grade H20
 > * 5X Kappa HiFi Buffer
