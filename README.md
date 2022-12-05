@@ -26,19 +26,19 @@ Following quantification, you will then standardize your samples to 20 ng/µL.
 
 ### 1a. Create Master Mix and Add Adapters + DNA
 **Master Mix**
-Enzyme Digestion | 1X | 106X
+Enzyme Digestion | 1X | 112X
 -----------------|----|-----
-NEB CutSmart     |1.5 µL | 159 µL
-dH2O | 3.0 µL | 318 µL
-XbaI | 0.5 µL | 53 µL
-EcoRI-HF | 0.5 µL | 53 µL
-NheI-HF | 0.5 µL | 53 µL
-**Total Volume** | **6 µL** | **642 µL**
+NEB CutSmart     |1.5 µL | 168 µL
+dH2O | 3.0 µL | 336 µL
+XbaI | 0.5 µL | 56 µL
+EcoRI-HF | 0.5 µL | 56 µL
+NheI-HF | 0.5 µL | 56 µL
+**Total Volume** | **6 µL** | **672 µL**
 
 *vortex master mix upon completion*
 
 
-1. Take a strip of eight 0.5 mL PCR tubes and pipette 78 µL into each tube to use as aliquot for use of multi-channel pipetting.
+1. Take a strip of eight 0.5 mL PCR tubes and pipette 82 µL into each tube to use as aliquot for use of multi-channel pipetting.
 
 2. Place 6 µL of master mix in each well using a multi-channel pipette.
 
@@ -68,17 +68,17 @@ NheI-HF | 0.5 µL | 53 µL
 
 ### 2a. Create Master Mix and Add
 **Master Mix**
-Ligation Mix | 1X | 106X
+Ligation Mix | 1X | 112X
 -----------------|----|-----
-dH2O     | 2.75 µL | 291.5 µL
-rATP | 1.5 µL | 159 µL
-Ligase Buffer | 0.5 µL | 53 µL
-DNA Ligase | 0.25 µL | 26.5 µL
-**Total Volume** | **5 µL** | **530 µL**
+dH2O     | 2.75 µL | 308 µL
+rATP | 1.5 µL | 168 µL
+Ligase Buffer | 0.5 µL | 56 µL
+DNA Ligase | 0.25 µL | 28 µL
+**Total Volume** | **5 µL** | **560 µL**
 
 *vortex master mix upon completion*
 
-1. Take a strip of eight 0.5 mL PCR tubes and pipette 65 µL into each tube to use as aliquot for use of multi-channel pipetting.
+1. Take a strip of eight 0.5 mL PCR tubes and pipette 68 µL into each tube to use as aliquot for use of multi-channel pipetting.
 2. Using a multi-channel pipette, add 5 µL of the master mix to each well.
 3. Seal 96-well plate with adhesive film and proceed to 2b.
 
