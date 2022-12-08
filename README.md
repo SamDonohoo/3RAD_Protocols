@@ -205,7 +205,7 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 3. Pool PCR products in one tube.
 
 ### 7. Bead Cleanup #3
-1. Repeat steps for Bead Cleanup #1 **but use 1.5X beads** and **resuspend in 35µL of TLE Buffer**
+1. Repeat steps for Bead Cleanup #1 **but use 2X beads** and **resuspend in 35µL of TLE Buffer**
 
 ### 8. Size selection
 1. Size select DNA using BluePippin
