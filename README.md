@@ -37,7 +37,7 @@ NheI-HF | 0.5 µL | 56 µL
 
 *vortex master mix upon completion*
 
-
+[Semi-Skirted PCR Plate]
 1. Take a strip of eight 0.5 mL PCR tubes and pipette 82 µL into each tube to use as aliquot for use of multi-channel pipetting.
 
 2. Place 6 µL of master mix in each well using a multi-channel pipette.
@@ -50,6 +50,8 @@ NheI-HF | 0.5 µL | 56 µL
 4. Place 5 µL of DNA in each well after adding adapters using a multi-channel pipette.
 
 5. Seal 96-well plate with adhesive film and proceed to 1b.
+
+Per Well Total: 15 µL
 
 ![Image of 96 well plate](96-well-plate-template-01.png)
 
@@ -76,14 +78,18 @@ Ligase Buffer | 0.5 µL | 56 µL
 DNA Ligase | 0.25 µL | 28 µL
 **Total Volume** | **5 µL** | **560 µL**
 
+*Heat Ligase Buffer to 56-60 °C to remove precipates*
+
 *vortex master mix upon completion*
 
 1. Take a strip of eight 0.5 mL PCR tubes and pipette 68 µL into each tube to use as aliquot for use of multi-channel pipetting.
 2. Using a multi-channel pipette, add 5 µL of the master mix to each well.
 3. Seal 96-well plate with adhesive film and proceed to 2b.
 
-### 2b. Incubation
-1. Incubate samples without heated lid
+Per Well Total: 20 µL
+
+### 2b. Incubation ~ 1 hr & 20 mins
+1. Incubate samples **without heated lid**
   * 2 cycles of:
     * 22 °C for 20:00
     * 37 °C for 10:00
@@ -92,7 +98,7 @@ DNA Ligase | 0.25 µL | 28 µL
 
 2. Spin down plate after incubation.
 
-*Note: While the samples incubate, make fresh 70% EtoH for Bead Cleanup*
+*Note: While the samples incubate, make fresh 70% EtoH for Bead Cleanup & begin Kapa Hifi Buffer Thaw*
 
 ### 3. Bead Cleanup #1
 
@@ -100,25 +106,25 @@ DNA Ligase | 0.25 µL | 28 µL
 > * molecular grade H20
 > * Omega BioTek Beads
 > * 70% EtOH
-> * TLE Buffer
+> * Low EDTA TE Buffer
 
 1. Spin down PCR product after removing from thermal cycler.
 2. Pool 5 µL of each ligation product into 1.5 mL tube. You can use an eight channel pipette into 8 strip tubes and then combine the 8 tubes into a 1.5 mL tube for speed.
-3. Mix pooled ligation product with **1X beads** and vortex + spin down.
+3. Mix pooled ligation product with **1X beads i.e. 200 µL of Beads** and vortex + spin down.
     - Sit for 5 minutes.
     - Place on magnet and wait until clear.
-    - Carefully remove and discard the supernatent without disturbing the beads.
+    - Carefully remove and discard the supernatent without disturbing the beads. ***DO NOT TOSS BEADS***
 4. Wash with 70% EtOH.
     - Add 500 µL 70% EtOH and let sit for 1 minutes on magnet.
     - Pipette EtOH from tube. 
 5. Repeat Step 4.
 6. Spin down and pipette up last drops of ethanol with a 0.1-10uL tip.
 7. Air dry by leting tube sit for 2 minutes with lid open until EtOH is gone.
-8. Resuspend in 25 µL TLE Buffer.
+8. Resuspend in 25 µL Low EDTA TE Buffer.
     - Remove from magnet, flick bead down, vortex + spin down. Make sure pellet is not sticking to side of tube.
     - Let sit for 5 minutes.
     - Place back on magnet until clear (~ 3 minutes).
-    - Transfer cleaned ligation product to new tube.
+    - Transfer cleaned ligation product to new tube. ***TOSS BEADS***
 
 ### 4. One Cycle PCR with iTru5-8N Primer
 
@@ -129,6 +135,7 @@ DNA Ligase | 0.25 µL | 28 µL
 > * Kappa HiFi Polymerase (HotStart)
 > * 5 µM iTru5 Primer
 >   * *need to make 5 µM primer beforehand (stock is at at 100 µM)*
+>   * *3.75 µL Stock & 71.25 µL water*
 
 *Note: At this point, I take all of the materials out and place into a cooling block in the fridge except for the HotStart for easy assess.*
 
@@ -149,7 +156,9 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 2. Add 5 µL pooled DNA to each PCR tube.
 3. Spin down tubes.
 
-### 4b. Incubation
+Per Tube Total: 50 µL
+
+### 4b. Incubation ~ 10 mins
 1. Incubate samples with heated lid
   * 95 °C for 2:00
   * 60 °C for 0:30
@@ -157,8 +166,12 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 2. Spin down PCR product after removing from thermal cycler.
 3. Pool PCR products in one tube.
 
+Tube Total: 200 µL
+
 ### 5. Bead Cleanup #2
 1. Repeat steps for Bead Cleanup #1 **but use 1.5X beads**
+
+**i.e. 300 µL of Beads**
 
 ### 6. Two Primer Amplification with P5 and iTru7 Primers
 **Materials Needed:**
@@ -193,8 +206,10 @@ Kappa HiFi Polymerase | 1.0 | 5.0
     - **Make sure the primer combination you decide to use is suitable for your multiplexing strategy on a NovaSeq.**
 3. Add 5 µL pooled 8N PCR product to each tube, then spin down.
 
-### 6b. Incubation
-1. Incubate samples with heated lid
+Per Tube Total: 50 µL
+
+### 6b. Incubation ~ 20 mins
+1. Incubate samples with **heated lid**
   * 95 °C for 3:00
   * 6 cycles of:
     * 98 °C for 0:20
@@ -205,7 +220,9 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 3. Pool PCR products in one tube.
 
 ### 7. Bead Cleanup #3
-1. Repeat steps for Bead Cleanup #1 **but use 2X beads** and **resuspend in 35µL of TLE Buffer**
+1. Repeat steps for Bead Cleanup #1 **but use 2X beads** and **resuspend in 35µL of Low EDTA TE Buffer**
+
+**i.e. 400 µL of Beads**
 
 ### 8. Size selection
 1. Size select DNA using BluePippin
@@ -241,7 +258,9 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 1. Add 45 µL into four PCR tubes.
 2. Add 5 µL pooled 8N PCR product to each tube, then spin down.
 
-### 9b. Incubation
+Per Tube Total: 50 µL
+
+### 9b. Incubation ~ 20 mins
 1. Incubate samples with heated lid
   * 95 °C for 3:00
   * 6 cycles of:
@@ -254,4 +273,9 @@ Kappa HiFi Polymerase | 1.0 | 5.0
 
 ### 10. Bead Cleanup #4
 1. Repeat steps for Bead Cleanup #1 **but use 1X beads**
-2. **Re-suspend in 25 µL 10 µM TrisHCL buffer**.
+
+**i.e. 200 µL of Beads**
+
+2. **Re-suspend in 25 µL 10 mM TrisHCL buffer**.
+
+*Note: 100 µL TrisHCL + 9,900 µL H20 = 10 mL of 10 mM TrisHCL*
