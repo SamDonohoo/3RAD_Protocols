@@ -110,7 +110,7 @@ Per Well Total: 20 µL
 
 1. Spin down PCR product after removing from thermal cycler.
 2. Pool 5 µL of each ligation product into 1.5 mL tube. You can use an eight channel pipette into 8 strip tubes and then combine the 8 tubes into a 1.5 mL tube for speed.
-3. Mix pooled ligation product with **1X beads i.e. 200 µL of Beads** and vortex + spin down.
+3. Mix pooled ligation product with **1X beads i.e. 480 µL of Beads** and vortex + spin down.
     - Sit for 5 minutes.
     - Place on magnet and wait until clear.
     - Carefully remove and discard the supernatent without disturbing the beads. ***DO NOT TOSS BEADS***
