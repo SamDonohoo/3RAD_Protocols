@@ -133,7 +133,7 @@ Per Well Total: 20 µL
 > * 5X Kappa HiFi Buffer
 > * 10µM dNTP
 > * Kappa HiFi Polymerase (HotStart)
-> * 5 µM iTru5 Primer
+> * 5 µM *N-iTru5 Primer
 >   * *need to make 5 µM primer beforehand (stock is at at 100 µM)*
 >   * *3.75 µL Stock & 71.25 µL water*
 
